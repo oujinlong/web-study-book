@@ -5,26 +5,17 @@
  * 从而一个新的、记录数增1的有序表。在其实现过程使用双层循环，外层循环对除了第一个元素之外的所有元素，
  * 内层循环对当前元素前面有序表进行待插入位置查找，并进行移动
  */
-let s = [2, 1, 3, 10, 4, 5, 8, 11, 9, -2, 100, 99, -30]
+let s = [2, 1, 3, 10, 4, 5, 8, 11, 9, -2, 100, 99, -30, -4]
 const insertSort = function (arr) {
-  for (let i = 1; i < s.length - 1; i++) {
+  for (let i = 1; i < arr.length; i++) {
     // 当前需要插入的数据
-    let currentNumber = s[i]
-    let insertIndex = 0
-    for (let j = i - 1; j >= 0; j--) {
-      // 已经排好的数据 （遍历做比较）
-      let compatedNumber = arr[j]
-      // 如果需要插入的数据比已经排序好的遍历数据要大，那么插在改遍历位置下一个
-      if (currentNumber >= compatedNumber) {
-        // 记录遍历位置的下一个位置
-        insertIndex = j + 1
-        break
-      }
+    let currentNumber = arr[i]
+    let insertIndex = i - 1
+    while (insertIndex >= 0 && currentNumber < arr[insertIndex]) {
+      arr[insertIndex + 1] = arr[insertIndex]
+      insertIndex--
     }
-    // 删除原来的数据 （即将插入的数据）
-    arr.splice(i, 1)
-    // 插入数据
-    arr.splice(insertIndex, 0, currentNumber)
+    arr[insertIndex + 1] = currentNumber
   }
   return arr
 }

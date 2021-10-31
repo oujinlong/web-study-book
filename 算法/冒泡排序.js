@@ -7,7 +7,7 @@
 let s = [2, 1, 3, 10, 4, 5, 8, 11, 9, -2, 100, 99, -30]
 const bubbleSort = function (arr) {
   // 大循环次数为长度 - 1
-  for (let j = 0; j < s.length - 1; j++) {
+  for (let j = 0; j < arr.length - 1; j++) {
     // 小循环直至倒数第二个 （倒数第二个会和最后一个去比较，然后沉底）
     for (let i = 0; i < arr.length - 1; i++) {
       // 小循环当前数据

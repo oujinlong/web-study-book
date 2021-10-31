@@ -12,7 +12,6 @@ const shellSort = function (arr) {
     //    第三组数据: add = 1  [22, 8, 16, 5, 47, 1, 10, 3, 15, 20] 
     // 找到每组数据的对应下标，做插入排序
     // 待插入数据 index
-    debugger
     for (let i = add; i < arr.length; i += add) {
       let index = i - add
       let currentNumber = arr[i]

@@ -26,6 +26,10 @@
 	
 		[视频](https://www.bilibili.com/video/BV1AP4y1j7iN/) [掘金](https://juejin.cn/post/7026371179258576927)
 		
+	*	7.JS前序遍历二叉树
+	
+		[视频](https://www.bilibili.com/video/BV1H3411k7ee/) [掘金](https://juejin.cn/post/7026404537883688973)
+		
 
 	
 

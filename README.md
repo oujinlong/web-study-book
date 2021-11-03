@@ -22,7 +22,9 @@
 	
 		[视频](https://www.bilibili.com/video/BV1hq4y1R7Mq/) [掘金](https://juejin.cn/post/7025170107110260749)
 		
-		
+	*	6.符号匹配
+	
+		[视频](https://www.bilibili.com/video/BV1AP4y1j7iN/) [掘金](https://juejin.cn/post/7026371179258576927)
 		
 
 	

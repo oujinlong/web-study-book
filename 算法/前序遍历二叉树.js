@@ -20,7 +20,6 @@ function TreeCode() {
 }
 let treeCode = new TreeCode();
 let root = treeCode.createTree()
-
 let stack = []
 let res = []
 stack.push(root)

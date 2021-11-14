@@ -5,7 +5,7 @@
  */
 // shell 排序
 const shellSort = function (arr) {
-  // 增量为 arr.length / 2 /2 /2 /2
+  // 增量为 arr.length / 2 /2 /2 /2aw 
   for (let add = Math.floor(arr.length / 2); add > 0; add = Math.floor(add / 2)) {
     //		第一组数据: add = 5  [22, 1] [8, 10] [16, 3] [5, 15] [47, 20] === [arr[0], arr[5]]  [arr[1], arrp[6]] .....
     //		第二组数据: add = 2  [22, 16, 47, 10, 15] [8, 5, 1, 3, 20] ===  [arr[0], arr[2], [arr[4]]....., arr[add * n]]

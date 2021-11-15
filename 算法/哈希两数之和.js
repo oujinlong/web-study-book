@@ -1,17 +1,17 @@
-var twoSum = function (nums, target) {
-  const map = {}
-  for (let index = 0; index < nums.length; index++) {
-    const values = Object.values(map)
-    const keys = Object.keys(map)
-    const number = nums[index]
-    let i = values.indexOf(number)
-    if (i !== -1) {
-      return [parseInt(keys[i]), index]
-    } else {
-      map[String(index)] = target - number
-    }
-  }
-}
+// var twoSum = function (nums, target) {
+//   const map = {}
+//   for (let index = 0; index < nums.length; index++) {
+//     const values = Object.values(map)
+//     const keys = Object.keys(map)
+//     const number = nums[index]
+//     let i = values.indexOf(number)
+//     if (i !== -1) {
+//       return [parseInt(keys[i]), index]
+//     } else {
+//       map[String(index)] = target - number
+//     }
+//   }
+// }
 
 /**
  * @param {number[]} nums

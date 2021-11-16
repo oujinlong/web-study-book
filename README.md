@@ -32,7 +32,7 @@
 		
 	*	8.JS合并递增链表
 		
-		 [掘金](https://juejin.cn/post/7026781111720099871)
+		[视频](https://www.bilibili.com/video/BV1Bv411M76Q/) [掘金](https://juejin.cn/post/7026781111720099871)
 
 	*	9.JS计数排序
 

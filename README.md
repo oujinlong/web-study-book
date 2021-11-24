@@ -166,3 +166,10 @@
 	
 		[掘金](https://juejin.cn/post/7033397082626981896/)
 		
+	* 42.合并K个递增链表
+	
+		[掘金](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+		
+	* 43.复制带随机指针的链表
+	
+		[掘金](https://juejin.cn/post/7034067466477109278/)

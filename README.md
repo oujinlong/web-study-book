@@ -181,3 +181,6 @@
  	* 45.两两交换链表中的节点
  		
  		[掘金](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+	* 46.二叉树的后序遍历
+	
+		[掘金](https://juejin.cn/post/7034456398989787150/)

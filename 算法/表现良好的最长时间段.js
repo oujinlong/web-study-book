@@ -31,6 +31,5 @@ var longestWPI = function (hours) {
 };
 
 
-
 const max = longestWPI([9, 9, 6, 0, 6, 6, 9])
 console.log({ max })
